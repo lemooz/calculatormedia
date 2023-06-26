@@ -1,0 +1,61 @@
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #00b300;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.numberInput {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00b300;
+    border-radius: 4px;
+    outline: none;
+}
+
+#btn-addnum,
+#btn-result {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: #00b300;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btn-addnum:hover,
+#btn-result:hover {
+    background-color: #008000;
+}
+
+#errorH2 {
+    color: #ff0000;
+    display: none;
+    font-size: 16px;
+    margin-top: 10px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-container {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Calcular Média</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calcular Média</h1>
+        <div id="nInput-container">  
+            <input type="number" class="numberInput">
+            <br>
+            <input type="number" class="numberInput">
+            <br>
+        </div>
+        <button id="btn-addnum" onclick="add()"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+        <button id="btn-result" onclick="calculate()"><i class="fa fa-calculator" aria-hidden="true"></i></button>
+        
+        
+        <div class="result-container">
+            <span id="result"></span>
+        </div>
+        <h2 id="errorH2">Não é possível adicionar mais números.</h2>
+    </div>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
